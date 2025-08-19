@@ -1,0 +1,9 @@
+num1 = int(input("Number 1"))
+num2 = int(input("Number 2"))
+opr  = str(input("Opertion")).lower()
+if opr == "add":
+ print(f"{num1} + {num2} = {num1+num2}")
+if opr == "subtract":
+ print(f"{num1} - {num2} = {num1-num2}")
+if opr == "multiply":
+ print(f"{num1} * {num2} = {num1*num2}")
