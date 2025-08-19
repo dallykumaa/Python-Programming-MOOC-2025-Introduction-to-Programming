@@ -1,0 +1,7 @@
+hw = float(input("Hourly wage:"))
+hwo = float(input("Hours worked:"))
+gw = str(input("Day of the week:")).lower()
+if gw == "sunday":
+    print(f"Daily wages: {(2*hw)*hwo} euros ")
+else:
+    print(f"Daily wages: {((hw))*hwo} euros ")
