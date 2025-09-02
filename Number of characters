@@ -1,0 +1,6 @@
+word = input("Please type in a word: ")
+word1 = len(word)
+if word1 > 1:
+    print(f"There are {word1} letters in the word {word}")
+if word1 > 0:
+    print("Thank you!")
