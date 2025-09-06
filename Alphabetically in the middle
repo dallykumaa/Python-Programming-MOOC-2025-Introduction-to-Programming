@@ -1,0 +1,17 @@
+mid = 0
+l1 = str(input("1st letter:"))
+l2 = str(input("2nd letter:"))
+l3 = str(input("3rd letter:"))
+if l1 < l2 and l2 < l3 :
+    mid = l2
+elif l2 > l3 and l2 > l3 :
+    mid = l2
+if l1 > l2 and l1 < l3 :
+    mid = l1
+elif l1 < l2 and l1 > l3 :
+    mid = l1
+if l1 < l3 and l2 > l3 :
+    mid = l3
+elif l1 > l3 and l2 < l3 :
+    mid = l3
+print(f"The letter in the middle is {mid}")
