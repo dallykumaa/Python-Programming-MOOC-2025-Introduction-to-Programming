@@ -1,0 +1,19 @@
+tax = 0
+money = float(input("Value of gift: "))
+if money < 5000:
+    tax = 0
+elif money < 25000 and money >= 5000:
+    tax = 100 + ((money - 5000) * 0.08)
+elif money < 55000 and money >= 25000:
+    tax = 1700 + ((money - 25000) * 0.10)
+elif money < 200000 and money >= 55000:
+    tax = 4700 + ((money - 55000) * 0.12)
+elif money < 1000000 and money >= 200000:
+    tax = 22100 + ((money - 200000) * 0.15)
+elif money >= 1000000 :
+    tax = 142100 + ((money - 1000000 ) * 0.17)
+if tax == 0:
+    print("No tax!")
+else:
+    print(f"Amount of tax: {tax} euros")
+
