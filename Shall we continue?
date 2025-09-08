@@ -1,0 +1,9 @@
+print("hi")
+while True:
+    
+    shall = input("Shall we continue?")
+    if shall == "no":
+        print("okay then")
+        break
+    else :
+        print("hi")  
